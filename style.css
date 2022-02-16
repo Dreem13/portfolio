@@ -1,0 +1,13 @@
+.page {
+    max-width: 1440px;
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.page_header {
+    display: block;
+    background-image: url(./assets/img/bg.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+}
+
