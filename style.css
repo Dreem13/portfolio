@@ -23,7 +23,6 @@
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-
   margin-top: 0px;
 }
 
@@ -53,9 +52,18 @@
   margin-left: 80px;
 }
 
+.header_title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 120px;
+}
+
 .header_text {
   margin-top: 10px;
   width: 470px;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
 }
 
 .header_button {
@@ -97,4 +105,7 @@
 
 .skills_title {
   color: #bdae82;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 80px;
 }
