@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 .page {
     display: block;
     max-width: 1440px;
@@ -8,6 +13,8 @@
 .page_header {
     display: block;
     margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
     background-image: url(./assets/img/bg.png);
     background-size: auto;
     background-repeat: no-repeat;
@@ -21,11 +28,26 @@
 }
 
 .header_menu_links_stats {
-margin: 0px;
-padding: 0px;
+    margin: 0px;
+    padding: 0px;
 }
 
 .header_links {
     display: inline;
     padding-right: 30px;
+}
+
+.header_privius {
+    margin-top: 185px;
+    margin-left: 80px;
+}
+
+.header_text {
+    margin-top: 10px;
+    width: 470px;
+}
+
+.header_button {
+    margin-top: 25px;
+    margin-bottom: 330px;
 }
