@@ -1,53 +1,100 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 .page {
-    display: block;
-    max-width: 1440px;
-    background-color: #000000;
-    color: #ffffff;
+  display: block;
+  max-width: 1440px;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 .page_header {
-    display: block;
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-image: url(./assets/img/bg.png);
-    background-size: auto;
-    background-repeat: no-repeat;
+  display: block;
+  background-image: url(./assets/img/bg.png);
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
 }
 
-.header_menu {    
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
+.header_menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+
+  margin-top: 0px;
+}
+
+.header_menu_logo {
+  margin-top: 20px;
+  margin-left: 20px;
 }
 
 .header_menu_links_stats {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  margin-top: 30px;
+  padding: 0px;
 }
 
 .header_links {
-    display: inline;
-    padding-right: 30px;
+  display: inline;
+  padding-right: 30px;
+}
+
+.header_links_style {
+  text-decoration: none;
+  color: #ffffff;
 }
 
 .header_privius {
-    margin-top: 185px;
-    margin-left: 80px;
+  margin-top: 185px;
+  margin-left: 80px;
 }
 
 .header_text {
-    margin-top: 10px;
-    width: 470px;
+  margin-top: 10px;
+  width: 470px;
 }
 
 .header_button {
-    margin-top: 25px;
-    margin-bottom: 330px;
+  width: 220px;
+  height: 55px;
+  margin-top: 25px;
+  margin-bottom: 330px;
+  background-color: #bdae82;
+  color: #000000;
+  border: 0;
+}
+
+.header_button:hover {
+  cursor: pointer;
+}
+
+.portfolio {
+  text-align: center;
+}
+
+.portfolio_button_style {
+  display: inline;
+}
+
+.portfolio_button {
+  width: 220px;
+  height: 55px;
+}
+
+.skills {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.skills_wrap {
+  text-align: center;
+  margin: 0;
+}
+
+.skills_title {
+  color: #bdae82;
 }
