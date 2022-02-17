@@ -3,11 +3,36 @@
   padding: 0;
 }
 
+@font-face {
+  font-family: "Merriweather";
+  src: url("./assets/fonts/Merriweather/Merriweather-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter/Inter-Regular.ttf");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter/Inter-Bold.ttf");
+  font-weight: 700;
+}
+
 .page {
-  display: block;
+  min-width: 1000px;
   max-width: 1440px;
   background-color: #000000;
   color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .page_header {
@@ -29,6 +54,14 @@
 .header_menu_logo {
   margin-top: 20px;
   margin-left: 20px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  transition: 0.8s;
+}
+
+.header_menu_logo:hover {
+  filter: invert(26%) sepia(15%) saturate(638%) hue-rotate(7deg) brightness(92%)
+    contrast(87%);
 }
 
 .header_menu_links_stats {
@@ -45,6 +78,15 @@
 .header_links_style {
   text-decoration: none;
   color: #ffffff;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 50px;
+  transition: 0.5s;
+}
+
+.header_links_style:hover {
+  color: #bdae82;
 }
 
 .header_privius {
@@ -53,6 +95,7 @@
 }
 
 .header_title {
+  font-family: "Merriweather";
   font-weight: 700;
   font-size: 60px;
   line-height: 120px;
@@ -61,6 +104,7 @@
 .header_text {
   margin-top: 10px;
   width: 470px;
+  font-family: "Inter";
   font-weight: 400;
   font-size: 20px;
   line-height: 40px;
@@ -74,27 +118,19 @@
   background-color: #bdae82;
   color: #000000;
   border: 0;
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 40px;
+  transition: 1s;
 }
 
 .header_button:hover {
   cursor: pointer;
-}
-
-.portfolio {
-  text-align: center;
-}
-
-.portfolio_button_style {
-  display: inline;
-}
-
-.portfolio_button {
-  width: 220px;
-  height: 55px;
+  color: #ffffff;
 }
 
 .skills {
-  margin: 0 auto;
   text-align: center;
 }
 
@@ -105,7 +141,130 @@
 
 .skills_title {
   color: #bdae82;
+  font-family: "Merriweather";
   font-weight: 700;
   font-size: 40px;
   line-height: 80px;
+  margin-top: 100px;
+  margin-bottom: 60px;
+}
+.skills_main_block {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.skills_block_photo {
+  margin-bottom: 50px;
+}
+
+.skills_block_item {
+  width: 320px;
+  height: 240px;
+}
+
+.skills_block_title {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 40px;
+  margin-bottom: 20px;
+}
+
+.skills_text {
+  font-family: "Inter";
+  font-size: 18px;
+  line-height: 36px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.portfolio {
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.portfolio_title {
+  color: #bdae82;
+  font-family: "Merriweather";
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 80px;
+  margin-bottom: 60px;
+  margin-top: 110px;
+}
+
+.portfolio_block {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.portfolio_button_style {
+  display: inline;
+}
+
+.portfolio_button {
+  width: 220px;
+  height: 55px;
+  background-color: #000000;
+  color: #bdae82;
+}
+
+/* .portfolio_button:last-child {
+  background-color:#BDAE82 ;
+  color: #000000;
+} */
+
+/* .portfolio_button_style:last-child {
+  background-color:#BDAE82 ;
+  color: #000000;
+} */
+
+/* .portfolio_button_style:nth-child(4) {
+  background-color:#BDAE82 ;
+  color: #000000;
+} */
+
+/* .portfolio_button:nth-child(4) {
+  background-color:#BDAE82 ;
+  color: #000000;
+} */
+
+.pictures {
+  margin-left: 20px;
+  margin-right: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  flex-wrap: wrap;  
+}
+
+.video {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  text-align: center;   
+}
+
+.video_button {  
+  background-image: url(./assets/img/Play_hover.png);
+  z-index: 1;
+  width: 130px;
+  height: 130px;
+  position: absolute;
+  fill: none;
+  fill-opacity: 0;
+  background-color: none;  
+}
+
+.video_button_wrap {
+  position: relative; 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 2;
 }
