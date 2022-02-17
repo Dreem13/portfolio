@@ -268,3 +268,9 @@
   align-items: center;
   z-index: 2;
 }
+
+.price {
+  margin-top: 100px;
+  margin-bottom: 60px;
+  text-align: center; 
+}
