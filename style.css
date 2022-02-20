@@ -1,3 +1,5 @@
+@import url(./normalize.css);
+
 * {
   margin: 0;
   padding: 0;
@@ -26,13 +28,7 @@
   max-width: 1440px;
   background-color: #000000;
   color: #ffffff;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
   margin: 0 auto;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
 }
 
 .page_header {
@@ -241,16 +237,16 @@
   align-items: center;
   justify-content: center;
   gap: 5px;
-  flex-wrap: wrap;  
+  flex-wrap: wrap;
 }
 
 .video {
   margin-top: 100px;
   margin-bottom: 100px;
-  text-align: center;   
+  text-align: center;
 }
 
-.video_button {  
+.video_button {
   background-image: url(./assets/img/Play_hover.png);
   z-index: 1;
   width: 130px;
@@ -258,11 +254,11 @@
   position: absolute;
   fill: none;
   fill-opacity: 0;
-  background-color: none;  
+  background-color: none;
 }
 
 .video_button_wrap {
-  position: relative; 
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -271,6 +267,57 @@
 
 .price {
   margin-top: 100px;
-  margin-bottom: 60px;
-  text-align: center; 
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.price_box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+
+.price_item {
+  border: 3px solid #bdae82;
+  width: 450px;
+  height: 505px;
+  padding-top: 43px;
+  padding-bottom: 50px;
+}
+
+.price_item_title {
+  font-family: "Merriweather";
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 56px;
+  margin-bottom: 20px;
+}
+
+.price_item_price {
+  font-family: "Merriweather";
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 48px;
+  color: #BDAE82;
+  margin-bottom: 20px;
+}
+
+.price_item_text {
+  font-family: "Inter";
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.price_item_button {
+  margin-top: 48px;
+  width: 220px;
+  height: 55px;
+  background-color: #BDAE82;
+  border-radius: 0;
+  font-family: "Inter";
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 40px;
 }
