@@ -299,7 +299,7 @@
   font-size: 24px;
   font-weight: 700;
   line-height: 48px;
-  color: #BDAE82;
+  color: #bdae82;
   margin-bottom: 20px;
 }
 
@@ -314,10 +314,58 @@
   margin-top: 48px;
   width: 220px;
   height: 55px;
-  background-color: #BDAE82;
+  background-color: #bdae82;
   border-radius: 0;
   font-family: "Inter";
   font-size: 20px;
   font-weight: 400;
   line-height: 40px;
+}
+
+.contact {
+  background-image: url(./assets/img/contacts.jpg);
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  padding-top: 60px;
+  padding-left: 970px;
+}
+
+.contact_form {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 450px;
+  height: 445px;
+}
+
+.contact_form_title {
+  margin-bottom: 40px;
+  font-family: "Merriweather";
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 80px;
+  color: #bdae82;
+}
+
+.contact_form_mail {
+  margin-bottom: 20px;
+  padding: 5px;
+  width: 100%;
+}
+
+.contact_form_phone {
+  margin-bottom: 20px;
+  padding: 5px;
+}
+
+.contact_form_textarea {
+  margin-bottom: 30px;
+  padding: 5px;
+}
+
+.contact_form_button {
+  width: 220px;
+  height: 55px;
 }
