@@ -329,6 +329,7 @@
   background-repeat: no-repeat;
   padding-top: 60px;
   padding-left: 970px;
+  padding-right: 20px;
 }
 
 .contact_form {
@@ -338,6 +339,8 @@
   flex-direction: column;
   width: 450px;
   height: 445px;
+  padding-bottom: 195px;
+  padding-top: 60px;
 }
 
 .contact_form_title {
@@ -352,20 +355,29 @@
 .contact_form_mail {
   margin-bottom: 20px;
   padding: 5px;
-  width: 100%;
+  width: inherit;
 }
 
 .contact_form_phone {
   margin-bottom: 20px;
   padding: 5px;
+  width: inherit;
 }
 
 .contact_form_textarea {
-  margin-bottom: 30px;
   padding: 5px;
+  width: inherit;
 }
 
 .contact_form_button {
   width: 220px;
   height: 55px;
+  margin-top: 38px;
+}
+
+.footer {
+  height: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
