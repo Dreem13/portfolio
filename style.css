@@ -341,6 +341,7 @@
   height: 445px;
   padding-bottom: 195px;
   padding-top: 60px;
+  background: transparent;  
 }
 
 .contact_form_title {
@@ -356,23 +357,30 @@
   margin-bottom: 20px;
   padding: 5px;
   width: inherit;
+  border: 1px solid #BDAE82;
+  background: transparent;
 }
 
 .contact_form_phone {
   margin-bottom: 20px;
   padding: 5px;
   width: inherit;
+  border: 1px solid #BDAE82;
+  background: transparent;
 }
 
 .contact_form_textarea {
   padding: 5px;
   width: inherit;
+  border: 1px solid #BDAE82;
+  background: transparent;
 }
 
 .contact_form_button {
   width: 220px;
   height: 55px;
   margin-top: 38px;
+  background-color: #BDAE82;
 }
 
 .footer {
